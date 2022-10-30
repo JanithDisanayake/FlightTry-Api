@@ -77,9 +77,9 @@
 * 8084 - [Admin](/Backends/admin)
 
 #### Frontend Ports
-* 3000 - Vue JS
-* 3003 - React JS
-* 4200 - Angular
+* 3000 - [Vue JS](/Frontends/Vue%20JS)
+* 3003 - [React JS](/Frontends/React%20JS)
+* 4200 - [Angular](/Frontends/Angular%20JS)
 
 <br>
 
