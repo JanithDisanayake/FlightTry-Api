@@ -70,11 +70,11 @@
 
 ## Ports
 #### Backend Ports
-* 8080 - Airports
-* 8081 - Api User
-* 8082 - Flight
-* 8083 - Mail
-* 8084 - Admin
+* 8080 - [Airports](/Backends/airport)
+* 8081 - [Api User](/Backends/api-user)
+* 8082 - [Flight](/Backends/flight)
+* 8083 - [Mail](/Backends/mail)
+* 8084 - [Admin](/Backends/admin)
 
 #### Frontend Ports
 * 3000 - Vue JS
