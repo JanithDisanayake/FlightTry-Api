@@ -9,7 +9,9 @@ const NavBar = () => {
   return (
     <div className='navbar'>
         <div className='leftSide'>
-            <img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/FFFFFF/external-flight-interface-kiranshastry-solid-kiranshastry.png" className="d-inline-block align-top" alt="Logo"/>
+            <Link to='/'>
+                <img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/FFFFFF/external-flight-interface-kiranshastry-solid-kiranshastry.png" className="d-inline-block align-top" alt="Logo"/>
+            </Link>
             <h1>Flight Try</h1>
         </div>
         <div className='rightSide'>
