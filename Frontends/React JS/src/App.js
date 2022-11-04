@@ -7,6 +7,7 @@ import Airports from './components/Airports'
 import EditFlightx from './components/EditFlightx';
 import LoginPage from './components/LoginPage';
 import Footer2 from './components/Footer2';
+import Home from './components/Home';
 
 
 class App extends Component
@@ -18,7 +19,7 @@ class App extends Component
             <BrowserRouter>
                 <div className='mx-5'>
                   <Routes>
-                  <Route path="/" exact element={<div><LoginPage/></div>}/>
+                  <Route path="/" exact element={<div><Home/></div>}/>
                     <Route path="/flights" element={<div><Header/><Index/></div>}/>
                     <Route path="/add-flight" element={<div><Header/><AddFlight/></div>}/>
                     <Route path="/airports" element={<div><Header/><Airports/></div>}/>
