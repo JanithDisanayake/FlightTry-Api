@@ -10,9 +10,10 @@ import Footer2 from './components/Footer2';
 import Footer3 from './components/Footer3';
 import Home from './components/Home';
 import NavBar from './components/Navbar';
-import About from './components/About'
-import './App.css'
 import Plans from './components/Plans';
+import About from './components/About'
+import Contact from './components/Contact'
+import './App.css'
 
 
 class App extends Component
@@ -26,6 +27,7 @@ class App extends Component
                   <Route path="/" exact element={<div className="App"><NavBar/><Home/><Footer3/></div>}/>
                     <Route path='/plans' element={<div><NavBar/><Plans/><Footer3/></div>}/>
                     <Route path='/about' element={<div><NavBar/><About/><Footer3/></div>}/>
+                    <Route path='/contact' element={<div><NavBar/><Contact/><Footer3/></div>}/>
                     <Route path="/login" element={<div><LoginPage/><Footer2/></div>}/>
                     <Route path="/flights" element={<div><Header/><Index/><Footer2/></div>}/>
                     <Route path="/add-flight" element={<div><Header/><AddFlight/><Footer2/></div>}/>
