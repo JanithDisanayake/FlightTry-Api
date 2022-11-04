@@ -20,7 +20,7 @@ class App extends Component
           <div>
             
             <BrowserRouter>
-                <div >
+                <div>
                   <Routes>
                   <Route path="/" exact element={<div className="App"><NavBar/><Home/><Footer3/></div>}/>
                     <Route path="/login" element={<div><LoginPage/><Footer2/></div>}/>

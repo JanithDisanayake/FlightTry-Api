@@ -3,11 +3,11 @@
   height: 200px;
   background-color: #121619;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   padding-top: 10px;
-  position:fixed;
+  position:relative;
   left:0;
   bottom:0;
   right:0;
