@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'; 
-import ReorderIcon from '@mui/icons-material/Reorder';
-import '../Home/NavBar.css';
+// import ReorderIcon from '@mui/icons-material/Reorder';
+import '../NavBar.css'
 
 
 const NavBar = () => {
@@ -17,7 +17,7 @@ const NavBar = () => {
             <Link to='/about'>About</Link>
             <Link to='/contact'>Contact</Link>
             <button>
-                <ReorderIcon/>
+                {/* <ReorderIcon/> */}
             </button>
         </div>
     </div>
