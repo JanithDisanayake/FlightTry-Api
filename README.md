@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-flight-interface-kiranshastry-solid-kiranshastry.png"/>
+<img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/5C7CFA/external-flight-interface-kiranshastry-solid-kiranshastry.png"/>
+
 <h1> FlightTry API </h1>
 
 <!--
