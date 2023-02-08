@@ -88,5 +88,4 @@
 - [Yasiru Ravishan](https://github.com/yasiruravishan24)
 - [Tharusha Perera](https://github.com/tharusha1004)
 - [Pruthuvi De Silva](https://github.com/PruthuviDe)
-- [Janith Disanyake](https://github.com/Janith3003
-- [Thisara](https://github.com/Janith3003)
+- [Janith Disanyake](https://github.com/Janith3003)
