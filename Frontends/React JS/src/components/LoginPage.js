@@ -32,10 +32,11 @@ function LoginPage () {
     return (
         <>
             <Container>
-                <h1 className="shadow-sm text-success mt-5 p-3 text-center rounded">Admin Login</h1>
+                <h1 className="shadow-sm text-success mt-5 p-0 text-center rounded">Admin Login</h1>
                 <Row className="mt-5">
-                    <Col lg={5} md={6} sm={12} className="p-5 m-auto shadow-sm rounded-lg">
-                        <Form>
+                    <Col lg={5} md={6} sm={12} className="p-3 m-auto shadow-sm rounded-lg">
+                        <div className='card py-3 '>
+                            <Form>
                             <Form.Group controlId="formBasicEmail">
                                 <Form.Label>User Name</Form.Label>
                                 <Form.Control onChange={e=>{setUsername(e.target.value)}} type="username" placeholder="Enter Username" />
@@ -52,6 +53,7 @@ function LoginPage () {
                                 </button>
                             </Link>
                         </Form>
+                        </div>
                     </Col>
                 </Row>
             </Container>
