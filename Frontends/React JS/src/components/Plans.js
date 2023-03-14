@@ -13,7 +13,7 @@ function Plans() {
         <li className="detail">Alerts not available</li>
         <li className="detail">Email not support</li>
         <li className="detail">Phone not support</li>
-        <li className="select_button"><input type="button" className="select_price" defaultValue="SELECT" /></li>
+        <li className="select_button"><input type="button" className="select_price btn btn-primary" defaultValue="SELECT" /></li>
       </div>
       <div className="columns">
       <li className="price_name">STANDARD</li>
@@ -23,7 +23,7 @@ function Plans() {
         <li className="detail">Alerts Available</li>
         <li className="detail">Email Support</li>
         <li className="detail">Phone not support</li>
-        <li className="select_button"><input type="button" className="select_price" defaultValue="SELECT" /></li>
+        <li className="select_button"><input type="button" className="select_price btn btn-primary" defaultValue="SELECT" /></li>
       </div>
       <div className="columns">
         <li className="price_name">PREMIUM</li>
@@ -33,7 +33,7 @@ function Plans() {
         <li className="detail">Alerts Available</li>
         <li className="detail">Email Support</li>
         <li className="detail">Phone Support</li>
-        <li className="select_button"><input type="button" className="select_price" defaultValue="SELECT" /></li>
+        <li className="select_button"><input type="button" className="select_price btn btn-primary" defaultValue="SELECT" /></li>
       </div>
     </div>
   </div>

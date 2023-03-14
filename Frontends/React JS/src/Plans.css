@@ -20,6 +20,7 @@
  box-sizing:border-box;
  background-color:white;
  font-family: Verdana,sans-serif;
+ margin-bottom: 50px
 }
 
 #second_col
@@ -49,7 +50,7 @@
 {
  list-style-type:none;
  border-bottom: 1px dashed #CEE3F6;
- height:70px;
+ height:auto;
  line-height:70px;
  text-align: center;
 }
