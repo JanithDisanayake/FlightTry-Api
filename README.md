@@ -71,7 +71,7 @@
 
 ## Ports
 #### Backend Ports
-* 8080 - [Airports](/Backends/airport)
+* 8080 - [Airports](/Backends/airport)  [:rocket:](https://flight-try-backend.onrender.com/v1/airports)
 * 8081 - [Api User](/Backends/api-user)
 * 8082 - [Flight](/Backends/flight)
 * 8083 - [Mail](/Backends/mail)
@@ -79,7 +79,7 @@
 
 #### Frontend Ports
 * 3000 - [Vue JS](/Frontends/Vue%20JS)
-* 3003 - [React JS](/Frontends/React%20JS)
+* 3003 - [React JS](/Frontends/React%20JS) [:rocket:](https://flight-try-frontend.onrender.com)
 * 4200 - [Angular](/Frontends/Angular%20JS)
 
 <br>
