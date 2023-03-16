@@ -4,11 +4,16 @@
   "description": "FlightTry API",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon --exec babel-node -- src/server.js"
   },
   "author": "Janith",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.4"
   }
 }
