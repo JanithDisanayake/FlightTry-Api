@@ -13,6 +13,9 @@ app.use(cors())
 const airportRoute = require("./routes/airport")
 app.use('/v1/airports/', airportRoute);
 
+const flightRoute = require("./routes/flight")
+app.use('/v1/flights', flightRoute);
+
 app.listen(PORT, ()=> {
     console.log(`🚀 Server is up and running  on PORT ${PORT}`);
     connect();
