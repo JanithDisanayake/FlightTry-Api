@@ -11,7 +11,7 @@ const connect = async  () => {
     mongoose.connect(MONGODB_URL)
     .then((connection) => {
         database = connection
-        console.log("💱 Database Synsced")
+        console.log("💱 Database Synced")
     })
     .catch((err) => {
         console.log(err.message);

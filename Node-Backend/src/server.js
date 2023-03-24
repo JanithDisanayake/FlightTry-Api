@@ -15,5 +15,5 @@ app.use('/v1/airports/', airportRoute);
 
 app.listen(PORT, ()=> {
     console.log(`🚀 Server is up and running  on PORT ${PORT}`);
-    // connect();
+    connect();
 });
